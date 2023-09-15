@@ -201,7 +201,7 @@ class _CvViewState extends State<CvView> {
                   ),
 
                   //Bio
-                  Text('Bio: ${widget.cvDetails.bio}', style: TextStyle(fontSize: 15),),
+                  Text('${widget.cvDetails.bio}', style: TextStyle(fontSize: 15),),
                 ],
               ),
             ),
